@@ -8,13 +8,9 @@ Cambridge. This is a first computing course for undergraduate students.
 The notebooks can be freely used, shared and modified. See the copyright
 and license notice below.
 
-*******************************************************************
-**	The versions provided here are minor modifications to    **
-**	the original, with the major changes being separation of **
-**	of the files into separate folders with ensuing changes  **
-**	in referencing as needed				 **
-*******************************************************************
+## Note to EH2745 version
 
+The versions provided here as part of the course EH2745 Computer applications in power systems are minor modifications to the original, with the major changes being separation of of the files into separate folders with ensuing changes in referencing as needed. Author: Lars Nordström (larsno@kth.se)
 
 
 ## Getting started
