@@ -12,6 +12,12 @@ and license notice below.
 
 The versions provided here as part of the course EH2745 Computer applications in power systems are minor modifications to the original, with the major changes being separation of of the files into separate folders with ensuing changes in referencing as needed. Author: Lars Nordström (larsno@kth.se)
 
+This repository also contains .py skeleton code developed for the EH2745 exercises, this code can similarly be can be freely used, shared and modified. See the copyright
+and license notice below.
+Author: Lars Nordström (larsno@kth.se)
+
+The repository also contains CIM-XML files provided by ENTSO-E under the licensing listed below.
+
 
 ## Getting started
 
@@ -49,7 +55,21 @@ Stadnik.
 
 ## License and copyright
 
-All material is copyright of Garth N. Wells (<gnw20@cam.ac.uk>).
+All material (CIM-XML files) provided by ENTSO-E is owned by ENTSO-E and are provided by
+ENTSO-E “as it is”. To the fullest extent permitted by law, ENTSO-E shall
+not be liable for any damages of any kind arising out of the use of the
+models (including any of their subsequent modifications).​
+
+ENTSO-E neither warrants, nor represents that the use of the models will
+not infringe the rights of third parties. Any use of the models shall
+include a reference to ENTSO-E. ENTSO-E web site is the only official
+source of information related to these models.​
+
+For further details and any que​stions on the CGMES conformity assessment,
+contact cgmes.conformity@entsoe.eu
+
+
+All material for the Michelmas Python introduction is copyright of Garth N. Wells (<gnw20@cam.ac.uk>).
 
 All text is made available under the Creative Commons
 Attribution-ShareAlike 4.0 International Public License
