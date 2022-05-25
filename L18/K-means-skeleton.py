@@ -36,24 +36,9 @@ flowers['type3'] = type3
 
 # Separating the DataFrame into a Learning set and a Test set
 
-LS = pd.DataFrame()
-TS = pd.DataFrame()
-LS_Setosa = flowers[:40]
-TS_Setosa = flowers[40:50]
-LS_Versicolor = flowers[50:90]
-TS_Versicolor = flowers[90:100]
-LS_Virginica = flowers[100:140]
-TS_Virginica = flowers[140:150]
-LS = LS.append(LS_Setosa, ignore_index=True)
-LS = LS.append(LS_Versicolor, ignore_index=True)
-LS = LS.append(LS_Virginica, ignore_index=True)
-TS = TS.append(TS_Setosa, ignore_index=True)
-TS = TS.append(TS_Versicolor, ignore_index=True)
-TS = TS.append(TS_Virginica, ignore_index=True)
-
 # Select only the input columns from the dataframe and convert it to a Numpy
 # array to speed up calculations
-inputs = LS[['Sepal.Length','Sepal.Width','Petal.Length','Petal.Width']].to_numpy()
+inputs = flowers[['Sepal.Length','Sepal.Width','Petal.Length','Petal.Width']].to_numpy()
 
 #print(inputs)
 
