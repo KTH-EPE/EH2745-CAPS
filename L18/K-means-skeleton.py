@@ -132,7 +132,7 @@ def kmeansclustering(inputs, init_guess = 3):
                 
                 #Assign new means, calculate difference
                 prev_means = curr_means
-               #curr_means = next_means
+                curr_means = next_means
                 means_diff = calc_diff(prev_means, curr_means)
             
             #Calculate cost of the current means
